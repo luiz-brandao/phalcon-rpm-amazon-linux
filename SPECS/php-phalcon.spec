@@ -78,6 +78,8 @@ BuildRequires: %{?scl_prefix}php-json
 BuildRequires: %{?scl_prefix}php-pdo
 BuildRequires: %{?scl_prefix}php-session
 BuildRequires: %{?scl_prefix}php-spl
+
+# I changed this line to use the right package name for the AMI
 BuildRequires: %{?scl_prefix}php55-pecl-igbinary-devel
 
 Requires:      %{?scl_prefix}php(zend-abi) = %{php_zend_api}
