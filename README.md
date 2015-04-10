@@ -1,5 +1,5 @@
 # phalcon-rpm-amazon-linux
-RPMs for the Phalcon PHP Framework to be installed in Amazon Linux
+RPMs for the Phalcon PHP Framework to be installed on Amazon Linux
 
 I am working with AWS Elastic Beanstalk and it is not always straightforward to get Phalcon installed from source using the .ebextensions configuration files. I also wanted to avoid having to install Phalcon from source everytime an instance is created, thus making the whole process faster. It my first time trying to create an RPM package, so be aware. Suggestions and improvements are welcomed.
 
